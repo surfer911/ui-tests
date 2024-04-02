@@ -14,9 +14,24 @@ The project involves the following tests:
 
 ## How To Run
 
-pip install -r requirements.txt
-cd tests
-python3 -m pytest test_search_analytics.py
+
+1. Install the required dependencies using pip:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Navigate to the tests directory:
+
+    ```bash
+    cd tests
+    ```
+
+3. Run the tests using pytest:
+
+    ```bash
+    python3 -m pytest test_search_analytics.py
+    ```
 
 
 ## Analytics Call Sample
